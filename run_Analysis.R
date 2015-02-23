@@ -1,5 +1,6 @@
 library(plyr)
 
+unzip(zipfile="./getdata-projectfiles-UCI HAR Dataset.zip",exdir=".")
 dir<- "./UCI HAR Dataset"
 featurePath <- paste(dir, "/features.txt", sep = "")
 activityLabelPath <- paste(dir, "/activity_labels.txt", sep = "")
